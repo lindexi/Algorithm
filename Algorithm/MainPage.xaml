@@ -8,6 +8,29 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-<TextBlock Text="{x:Bind view.reminder,Mode=OneWay}" TextWrapping="Wrap" Margin="10,10,10,10" ></TextBlock>
+        <!--<TextBlock Text="{x:Bind view.reminder,Mode=OneWay}" TextWrapping="Wrap" Margin="10,10,10,10" ></TextBlock>-->
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="canvas" Margin="10,10,10,10" Left="10" ZIndex="0"></Canvas>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <AppBarButton Icon="Copy" Click="graham"/>
+            <AppBarButton Content="连线" Click="divide_graham"/>
+        </StackPanel>
+        <!--<Path>
+            <Path.Data>
+                <PathGeometry>
+                    <PathGeometry.Figures>
+                        <PathFigure>
+                            <PathFigure.Segments>
+                                <LineSegment></LineSegment>
+                                --><!--多个--><!--
+                            </PathFigure.Segments>
+                        </PathFigure>
+                    </PathGeometry.Figures>
+                </PathGeometry>
+            </Path.Data>
+        </Path>-->
     </Grid>
 </Page>
