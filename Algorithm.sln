@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cAlgorithm", "cAlgorithm\cAlgorithm.csproj", "{1188648A-4BAC-47A4-84F5-F07FBBC63AB5}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{9A708500-7CCE-42C9-B538-F59EFC36A92F}"
 	ProjectSection(SolutionItems) = preProject
 		doc\common_divisor.md = doc\common_divisor.md
+		graham.md = graham.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
