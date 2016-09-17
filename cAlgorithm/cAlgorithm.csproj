@@ -95,6 +95,7 @@
     <SDKReference Include="TestPlatform.Universal, Version=$(UnitTestPlatformVersion)" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BestTimetoBuyandSellStock.cs" />
     <Compile Include="BinaryReflectedGrayCode.cs" />
     <Compile Include="common_divisor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

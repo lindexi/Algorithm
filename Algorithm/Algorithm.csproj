@@ -98,6 +98,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\BestTimetoBuyandSellStock.cs" />
     <Compile Include="Model\BinaryReflectedGrayCode.cs" />
     <Compile Include="Model\common_divisor.cs" />
     <Compile Include="MainPage.xaml.cs">
