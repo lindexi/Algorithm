@@ -17,6 +17,8 @@ namespace Algorithm.Model
         {
             int i = 0;
             bool reu = false;
+            text = text.ToLower();
+            str = str.ToLower();
             foreach (var temp in str)
             {
                 reu = false;
@@ -25,6 +27,7 @@ namespace Algorithm.Model
                     if (temp == text[i])
                     {
                         reu = true;
+                        i++;
                         break;
                     }
                 }
